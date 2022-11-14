@@ -14,7 +14,9 @@
     	<div class="container header">
         	<div class="row">
 
-            <p>header</p>
+            <div class="logo">
+              <img src="images/logo.png" alt="logo">
+            </div>
             
             </div><!--row end-->
         </div><!--container end-->
