@@ -190,6 +190,10 @@ body {
   margin-top: 5px;
 }
 
-.logo img {
+.logo a {
+  display: block;
+}
+
+.logo a img {
   width: 100%;
 }

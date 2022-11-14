@@ -83,7 +83,7 @@ $read = mysqli_fetch_assoc($update_query);
         </div>
         <div class="panel-footer text-center">
           <input type="reset" class="btn btn-sm btn-default" value="Clear">
-          <button class="btn btn-sm btn-primary">REGISTRATION</button>
+          <button class="btn btn-sm btn-primary">UPDATE</button>
         </div>
       </div>
     </form>

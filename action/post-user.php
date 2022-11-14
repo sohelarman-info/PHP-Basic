@@ -12,10 +12,12 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     $password   = md5($_POST['password']);
 }
 
-// if(!empty($name)){
-//     $_SESSION['name_empty'] = 'Name is empty';
-//     header('location:../add-user.php');
-// }
+if (empty($name)){
+    echo "Your name is Required!";
+}else{
+    echo  'Your Your name is: $username';
+}
+
 $insert = "INSERT INTO user(name, username, email, number, gender, password) VALUES ('$name', '$username', '$email', '$number', '$gender', '$password')";
 
 $query = mysqli_query($db, $insert);
